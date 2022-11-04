@@ -11,6 +11,17 @@
       h1 {
         font-weight: 200;
       }
+      *:hover {
+        animate: 500ms spin ease-in-out;
+      }
+      @keyframe spin {
+        from: {
+          transform: rotate(0deg);
+        },
+        to: {
+          transform: rotate(360deg);
+        },
+      }
     </style>
   </head>
   <body>
